@@ -32,7 +32,7 @@ li {
 .bus-info {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 236px;
+  height: 187px;
   width: 375px;
 }
 
@@ -58,6 +58,12 @@ li {
   font-weight: 600;
 }
 
+.fa-map-marker-alt {
+  margin-top: 3px;
+  font-size: 20px;
+  color: #86bef5;
+}
+
 .line-width {
   width: 10%;
 }
@@ -76,7 +82,7 @@ li {
   width: 3%;
   color: #828282;
   text-align: right;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .resume-width {
@@ -109,7 +115,7 @@ li {
 }
 
 #map {
-  height: 430px;
+  height: 480px;
   width: 375px;
 }
 

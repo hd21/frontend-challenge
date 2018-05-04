@@ -6,6 +6,8 @@
         <title>BusyBus</title>
         <meta name="viewport" content="width=375, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+            crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     </head>
@@ -16,7 +18,7 @@
             <div class="bus-info">
                 <div id="bus-stop">
                     <li id="pin-width">
-                        <img src="images/pin.png" alt="Pin" id="pin-width">
+                        <i class="fas fa-map-marker-alt"></i>
                     </li>
                     <li id="bus-stop-name">Washington and State</li>
                     <li id="dist-width">0.5 mi</li>
@@ -25,56 +27,60 @@
                 <hr>
 
                 <p id="direction-east">Eastbound</p>
-                <div class="bus-details">
+                <ul class="bus-details">
                     <li class="line-width">60</li>
                     <li class="dest-width">Randolph/Harbor Dr.</li>
                     <li class="freq-width">Every 20 mins</li>
-                    <li class="arrow-width">>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
                     </li>
                     <li class="line-width">124</li>
                     <li class="dest-width">Navy Pier</li>
                     <li class="freq-width">Every 10 mins</li>
-                    <li class="arrow-width">></li>
-                </div>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
+                    </li>
+                </ul>
 
                 <br>
 
                 <p class="direction">Northbound</p>
-                <div class="bus-details">
+                <ul class="bus-details">
                     <li class="line-width">151</li>
                     <li class="dest-width">Devon/Clark</li>
                     <li class="freq-width">Every 16 mins</li>
-                    <li class="arrow-width">>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
                     </li>
-                </div>
+                </ul>
 
                 <p class="direction">Southbound</p>
-                <div class="bus-details">
+                <ul class="bus-details">
                     <li class="line-width">J14</li>
                     <li class="dest-width">103rd/Stony Island</li>
                     <li class="freq-width">Every 15 mins</li>
-                    <li class="arrow-width">>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
                     </li>
                     <li class="line-width">124</li>
                     <li class="dest-width">Navy Pier</li>
                     <li class="freq-width">Every 10 mins</li>
-                    <li class="arrow-width">>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
                     </li>
-                </div>
+                </ul>
 
                 <br>
 
                 <p class="direction">Reroute</p>
-                <div class="bus-details">
+                <ul class="bus-details">
                     <li class="line-width">6x</li>
                     <li class="dest-width">Jackson Park Express </li>
                     <li class="freq-width">N/A</li>
-                    <li class="arrow-width">
-                    </li>
-                </div>
+                </ul>
 
                 <p class="direction">Out of Service</p>
-                <div class="bus-details">
+                <ul class="bus-details">
                     <li class="line-width">4</li>
                     <li class="dest-width">Cottage Grove</li>
                     <li class="resume-width">Resumes 12:10am</li>
@@ -84,8 +90,7 @@
                     <li class="line-width">157</li>
                     <li class="dest-width">Streeterville/Taylor</li>
                     <li class="resume-width">Resumes 6:00am</li>
-
-                </div>
+                </ul>
 
 
             </div>
