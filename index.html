@@ -26,17 +26,17 @@
 
                 <hr>
 
-                <p id="direction-east">Eastbound</p>
+                <ul id="direction-east">Eastbound</ul>
                 <ul class="bus-details">
                     <li class="line-width">60</li>
                     <li class="dest-width">Randolph/Harbor Dr.</li>
-                    <li class="freq-width">Every 20 mins</li>
+                    <li class="freq-width" id="first-bus">2 mins</li>
                     <li class="arrow-width">
                         <i class="fas fa-chevron-right"></i>
                     </li>
                     <li class="line-width">124</li>
                     <li class="dest-width">Navy Pier</li>
-                    <li class="freq-width">Every 10 mins</li>
+                    <li class="freq-width" id="second-bus">7 mins</li>
                     <li class="arrow-width">
                         <i class="fas fa-chevron-right"></i>
                     </li>
@@ -44,59 +44,63 @@
 
                 <br>
 
-                <p class="direction">Northbound</p>
-                <ul class="bus-details">
-                    <li class="line-width">151</li>
-                    <li class="dest-width">Devon/Clark</li>
-                    <li class="freq-width">Every 16 mins</li>
-                    <li class="arrow-width">
-                        <i class="fas fa-chevron-right"></i>
-                    </li>
-                </ul>
-
-                <p class="direction">Southbound</p>
+                <ul class="direction">Southbound</ul>
                 <ul class="bus-details">
                     <li class="line-width">J14</li>
                     <li class="dest-width">103rd/Stony Island</li>
-                    <li class="freq-width">Every 15 mins</li>
+                    <li class="freq-width" id="third-bus">8 mins</li>
                     <li class="arrow-width">
                         <i class="fas fa-chevron-right"></i>
                     </li>
+
+                </ul>
+
+                <ul class="direction">Northbound</ul>
+                <ul class="bus-details">
+                    <li class="line-width">151</li>
+                    <li class="dest-width">Devon/Clark</li>
+                    <li class="freq-width" id="fourth-bus">10 mins</li>
+                    <li class="arrow-width">
+                        <i class="fas fa-chevron-right"></i>
+                    </li>
+                </ul>
+
+                <ul class="direction">Southbound</ul>
+                <ul class="bus-details">
                     <li class="line-width">124</li>
                     <li class="dest-width">Navy Pier</li>
-                    <li class="freq-width">Every 10 mins</li>
-                    <li class="arrow-width">
-                        <i class="fas fa-chevron-right"></i>
+                    <li class="freq-width" id="fifth-bus">15 mins</li>
+                    <li class="arrow-width ">
+                        <i class="fas fa-chevron-right "></i>
                     </li>
                 </ul>
 
-                <br>
-
-                <p class="direction">Reroute</p>
-                <ul class="bus-details">
-                    <li class="line-width">6x</li>
-                    <li class="dest-width">Jackson Park Express </li>
-                    <li class="freq-width">N/A</li>
+                <ul class="direction ">Reroute</ul>
+                <ul class="bus-details ">
+                    <li class="line-width ">6x</li>
+                    <li class="dest-width ">Jackson Park Express </li>
+                    <li class="freq-width ">N/A</li>
                 </ul>
 
-                <p class="direction">Out of Service</p>
-                <ul class="bus-details">
-                    <li class="line-width">4</li>
-                    <li class="dest-width">Cottage Grove</li>
-                    <li class="resume-width">Resumes 12:10am</li>
-                    <li class="line-width">20</li>
-                    <li class="dest-width">Madison</li>
-                    <li class="resume-width">Resumes 12:10am</li>
-                    <li class="line-width">157</li>
-                    <li class="dest-width">Streeterville/Taylor</li>
-                    <li class="resume-width">Resumes 6:00am</li>
+                <ul class="direction ">Out of Service</ul>
+                <ul class="bus-details ">
+                    <li class="line-width ">4</li>
+                    <li class="dest-width ">Cottage Grove</li>
+                    <li class="resume-width ">Resumes 12:10am</li>
+                    <li class="line-width ">20</li>
+                    <li class="dest-width ">Madison</li>
+                    <li class="resume-width ">Resumes 12:10am</li>
+                    <li class="line-width ">157</li>
+                    <li class="dest-width ">Streeterville/Taylor</li>
+                    <li class="resume-width ">Resumes 6:00am</li>
                 </ul>
-
 
             </div>
         </section>
 
-
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin=" anonymous "></script>
+        <script type="text/javascript " src="main.js "></script>
 
     </body>
 
